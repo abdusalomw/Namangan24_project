@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(213, 222, 222);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.header h1{
+    font-family: 'Courier New', Courier, 'Courier New', Courier, monospace  Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 95, 163);
+}
+.wrap{
+    display: flex;
+}
+.hero{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.sale{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:space-between; 
+    padding: 10px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+.picture{
+    margin-right: 26px;
+}
+.line1{
+    position: absolute;
+    top: 49px;
+    right: 837px;
+    width: 77px;
+    height: 1.8px;
+    transform: rotate(90deg);
+    background-color: red;
+}
+.line2{
+    position: absolute;
+    top: 49px;
+    right: 485px;
+    width: 77px;
+    height: 1.8px;
+    transform: rotate(90deg); 
+    background-color: red;
+}
+.line3{
+    position: absolute;
+    top: 49px;
+    right: 162px;
+    width: 77px;
+    height: 1.8px;
+    transform: rotate(90deg); 
+    background-color: red;
+}
+.obuna_bolish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.span{
+    margin-right: 50px;
+}
+.search__img{
+    width: 30pc;
+    height: 20px;
+    background-color: aliceblue;
+}
+.uzbek_bayroq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(254, 254, 255);
+}
+.input{
+    margin-right: 10px;
+}
