@@ -10,8 +10,6 @@ body{
     background-color: rgb(226, 226, 226);
 }
 header{
-    display: flex;
-    align-items:center ;
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
@@ -36,6 +34,11 @@ footer{
     margin-left: auto;
 }
 .header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-head{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +97,7 @@ footer{
 }
 /* <HERO> */
 
-.hero{
+.header-main{
     width: 1440px;
     box-sizing: border-box;
     padding: 6px;
@@ -274,7 +277,7 @@ footer{
     height: 880px;
 }
 .black-bg{
-    height: 660px;
+    height: 400px;
     border-top-left-radius:0 ;
     border-top-right-radius:0 ;
     background-color: black;
@@ -401,4 +404,76 @@ footer{
 .telegram{
     display: flex;
     align-items: center;
+}
+
+
+/* <|SECOND PAGE|> */
+
+
+.header__wrap{
+    width: 1440px;
+    
+}
+.hero__line{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1440px;
+}
+.reklama{
+    width: 1440px;
+}
+.reklama__img{
+    width: 1440px;
+}
+.button-about{
+    width: 1420px;
+    margin-left: 0;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-left: -12px;
+    background-color: rgb(235, 234, 234);
+}
+.about-button__text{
+    font-family: 'Rubik';
+    font-weight: 400;
+    margin: 0;
+    font-size: 40px;
+    color: black;
+}
+.ultra-news{
+    border-radius: 8px;
+    height: 630px;
+}
+.reklama-uylar{
+    width: 420px;
+    
+}
+.uylar{
+    width: 420px;
+    height: 600px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(190, 187, 187);
+}
+.language span{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 38px;
+    height: 28px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.language h3{
+    color: black;
+    margin-left: 3px;
+}
+.language p{
+    color: rgb(92, 92, 92);
 }
