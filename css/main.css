@@ -7,7 +7,7 @@
     font-display: swap;
 }
 body{
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(226, 226, 226);
 }
 header{
     display: flex;
@@ -396,7 +396,7 @@ footer{
     margin-right: 70px;
 }
 .texts h3{
-color: rgb(57, 53, 53);
+    color: rgb(57, 53, 53);
 }
 .telegramkanal{
     font-family: 'Rubik';
@@ -404,27 +404,14 @@ color: rgb(57, 53, 53);
     color: #fff;
 }
 .kanallar{
-margin-left: 190px;
+    margin-left: 190px;
 }
 .telegram{
     display: flex;
     align-items: center;
-
+    
 }
 .youtube{
     display: flex;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
