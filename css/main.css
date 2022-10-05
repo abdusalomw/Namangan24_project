@@ -456,7 +456,9 @@ footer{
 .language{
     display: flex;
     align-items: center;
+    cursor: pointer;
     border-radius: 20px;
+    margin-right: 10px;
     width: 60px;
     height: 30px;
     background-color: rgb(190, 187, 187);
@@ -476,4 +478,8 @@ footer{
 }
 .language p{
     color: rgb(92, 92, 92);
+}
+.card__text p{
+    margin-left: 20px;
+
 }
