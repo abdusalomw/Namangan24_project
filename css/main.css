@@ -481,5 +481,73 @@ footer{
 }
 .card__text p{
     margin-left: 20px;
+    
+}
 
+
+
+/* CONTACT-PAGE */
+input{
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    width: 400px;
+    height: 35px;
+}
+.hero-contact{
+    width: 1440px;
+    box-sizing: border-box;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+}
+.right-card{
+    margin-right: 30px;
+    
+    width: 850px;
+}
+.left-card{
+    width: 590px; 
+
+    box-sizing: border-box;
+
+    padding: 20px;
+
+    border-radius: 8px;
+    background-color: rgb(207, 207, 207);
+}
+.submit-button{
+    margin-left: 710px;
+    margin-bottom: 10px;
+    
+    width: 120px;
+    
+    padding: 8px;
+    
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(68, 68, 202);
+}
+.left-card__text{
+    color: black;
+}
+.name-input{
+    display: flex;
+}
+.name{
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+.gmail{
+    width: 830px;
+    margin-bottom: 10px;
+}
+.text{
+    width:  830px;
+    height:120px;
+    
+    padding-top:0 ;
+    
+    margin-bottom: 10px;
 }
