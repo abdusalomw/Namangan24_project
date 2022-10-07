@@ -510,11 +510,11 @@ input{
 }
 .left-card{
     width: 590px; 
-
+    
     box-sizing: border-box;
-
+    
     padding: 20px;
-
+    
     border-radius: 8px;
     background-color: rgb(207, 207, 207);
 }
@@ -528,6 +528,8 @@ input{
     
     border-radius: 5px;
     border: 1px solid transparent;
+    
+    color: #fff;
     background-color: rgb(68, 68, 202);
 }
 .left-card__text{
@@ -551,4 +553,56 @@ input{
     padding-top:0 ;
     
     margin-bottom: 10px;
+}
+.submit-button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.4s ease;
+}
+.submit-button:active{
+    opacity: 0.4;
+}
+
+
+/* <LIST-PAGE> */
+
+
+.list__marketing{
+    display: flex;
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.list-new__cards{
+    display: block;
+}
+.list__recent h3{
+    color: black;
+}
+
+.three-cards{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.interested-card{
+    width: 450px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(196, 196, 196);
+}
+.interested-card img{
+    border-radius: 5px;
+}
+.card-texts-list{
+    width: 1440px;
+    margin-left: auto;
+    padding-left: 30px;
+    margin-right: auto;
+    
 }
